@@ -1,0 +1,47 @@
+.afterHero {
+    background-color: #000000;
+    padding: 30px;
+}
+
+.afterHero img {
+    width: 400px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 280px;
+}
+
+
+@media (max-width: 1191px) {
+    .features {
+        grid-template-columns: 1fr;
+    }
+}
+
+.features__img {
+    width: 100%;
+}
+
+.features__feature {
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.features__feature h1 {
+    color: #fff;
+    font-size: 49px;
+}
+
+.features__feature p {
+    color: #fff;
+    font-size: 30px;
+
+}

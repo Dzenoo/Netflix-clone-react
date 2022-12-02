@@ -1,0 +1,28 @@
+.footer {
+    background-color: #000;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+ul {
+    list-style: none;
+    padding: 20px;
+}
+
+ul li {
+    color: grey;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+select {
+    background-color: transparent;
+    border: 1px solid rgb(182, 173, 173);
+    padding: 10px;
+    color: #fff;
+    margin-top: 20px;
+}
